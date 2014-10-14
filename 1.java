@@ -24,9 +24,7 @@ public class Actions {
 	}
 	
 		ArrayList<Book> list = cont.OnSearchForAuthor(author_name);
-		books.clear();
-		System.out.println("function SearchAuthor");
-		for(int i=0; i<list.size();i++) {
+		
 			books.add(list.get(i));
 			System.out.println(list.get(i).title);
 		}
