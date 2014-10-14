@@ -15,22 +15,14 @@ public class Actions {
 	public Book getBook_info() {
 		return book_info;
 	}
-	public void setBook_info(Book book_info) {
-		Actions.book_info = book_info;
-	}
-	public String getAuthor_name() {
-		return author_name;
-	}
+	
 	public void setAuthor_name(String author_name) {
 		Actions.author_name = author_name;
 	}
 	public List<Book> getBooks() {
 		return books;
 	}
-	public void setBooks(List<Book> books) {
-		Actions.books = books;
-	}
-	public String SearchAuthorexcute() {
+	
 		ArrayList<Book> list = cont.OnSearchForAuthor(author_name);
 		books.clear();
 		System.out.println("function SearchAuthor");
