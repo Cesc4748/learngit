@@ -16,11 +16,7 @@ public class Actions {
 		return book_info;
 	}
 	
-	public void setAuthor_name(String author_name) {
-		Actions.author_name = author_name;
-	}
-	public List<Book> getBooks() {
-		return books;
+	
 	}
 	
 		ArrayList<Book> list = cont.OnSearchForAuthor(author_name);
